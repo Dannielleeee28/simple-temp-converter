@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(183, 185, 185, 0.521);
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background-color: rgba(255, 253, 253, 0.87);
+    max-width: 370px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px;
+}
+form h1 {
+    font-size: 28px;
+}
+form #tempValue {
+    text-align: center;
+    border: 2px solid hsla(0, 1%, 81%, 0.795);
+    border-radius: 10px;
+    padding: 15px;
+}
+form .unit {
+    display: none;
+
+}
+form label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 18px;
+    margin: 20px 5px;
+    border: 2px solid #111;
+    border-radius: 25px;
+    background-color: white;
+    color: #111;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+form .unit:checked + label {
+    background-color: #111;
+    color: white;
+    border-color: #111;
+}
+form button {
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px 0 15px 0;
+    width: 200px;
+    transition: all 0.3s ease;
+
+}
+form button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+}
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
